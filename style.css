@@ -70,6 +70,7 @@ p {
 
 .cards.white {
   color: var(--Very-dark-grayish-blue);
+  background-color: var(--White);
 }
 
 .cards.white small {
