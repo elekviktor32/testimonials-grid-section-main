@@ -56,6 +56,10 @@ p {
   background-color: var(--Moderate-violet);
 }
 
+.cards.violet p, .cards.dark-grayish p, .cards.dark-blackish p {
+  color: var(--White-70);
+}
+
 .cards.dark-grayish {
   background-color: var(--Very-dark-grayish-blue);
 }
