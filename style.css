@@ -3,8 +3,12 @@
 :root {
   --Moderate-violet: hsl(263, 55%, 52%);
   --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-grayish-blue-50: rgba(72, 85, 106, 0.5);
+  --Very-dark-grayish-blue-70: rgba(72, 85, 106, 0.7);
   --Very-dark-blackish-blue: hsl(219, 29%, 14%);
   --White: hsl(0, 0%, 100%);
+  --White-50: rgba(255, 255, 255, 0.5);
+  --White-70: rgba(255, 255, 255, 0.7);
   --Light-gray: hsl(0, 0%, 81%);
   --Light-grayish-blue: hsl(210, 46%, 95%);
 }
@@ -23,6 +27,10 @@ body {
 h3,
 h4 {
   font-weight: 700;
+}
+
+small {
+  color: var(--White-50);
 }
 
 p {
@@ -58,6 +66,14 @@ p {
 
 .cards.white {
   color: var(--Very-dark-grayish-blue);
+}
+
+.cards.white small {
+  color: var(--Very-dark-grayish-blue-50);
+}
+
+.cards.white p {
+  color: var(--Very-dark-grayish-blue-70);
 }
 
 .cards .quote {
